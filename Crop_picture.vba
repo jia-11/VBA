@@ -1,3 +1,14 @@
+'This is specific for crop hot spot map--screenshot from 7SEAS hot spot ma
+'The source of this file is http://www.experts-exchange.com/Software/Office_Productivity/Office_Suites/MS_Office/PowerPoint/Q_27531267.html
+'Aslo include the code to crop all pictures in the original website
+'You have to apply the code below in google earth file first
+	'<LookAt>
+	  '<longitude>112</longitude>
+	  '<latitude>2</latitude>
+	  '<range>3546720</range>
+  '</LookAt>
+'Also 	Change the green mark color to <color>ff0000ff</color>
+
 Sub MyCrop()
 Dim oshp As Shape
 Set oshp = ActiveWindow.Selection.ShapeRange(1)
